@@ -1,10 +1,10 @@
 let moviesList = document.getElementById("moviesList")
-let batmanMoviesURL = "http://www.omdbapi.com/?s=batman&apikey=edffb324"
+let batmanMoviesURL = "http://www.omdbapi.com/?s=batman&apikey=917e144a"
 let movieInfo = document.getElementById("movieInfo")
 
 let req = new XMLHttpRequest()
 function showDetails(imdbID){
-    let detailsURL = `http://www.omdbapi.com/?i=${imdbID}&apikey=edffb324`
+    let detailsURL = `http://www.omdbapi.com/?i=${imdbID}&apikey=917e144a`
     let req = new XMLHttpRequest()
     req.open('GET', detailsURL)
     req.addEventListener('load', () =>{
